@@ -18,11 +18,11 @@ The device must use [AI](#ai) in order to recognize the language spoken around i
 
 ## Target Audience
 
-This project has been proposed and is intended for the use of ALGOSUP. (so that they can spy on students during project time)
+This project has been proposed and is intended for the use of ALGOSUP. <!--(so that they can spy on students during project time)-->
 
 ## Similar Already Existing Projects
 
-Similar project have already been done by other people, even if the objectives aren't exactly the same as ours, we can use the knowledge left by others regarding what they have done or faced in the past.(difficulties encountered/[AI training](#ai-training)/best data to use/...)
+Similar projects have already been done by other people, even if the objectives aren't exactly the same as ours. We can use the knowledge left by others regarding what they have done or faced in the past.(difficulties encountered/[AI training](#ai-training)/best data to use/...)
 
 The following link lead to an open source project that was done in order to recognize German from English in voice recordings, the creator has also left indications to reproduce or modify the results of his work.
 
@@ -82,7 +82,7 @@ Furthermore, by making the project open source, the future users could ensure th
 
 ### Materials
 
-For this project we are planning to use an ARDUINO SENSE as the embeded system because it embark a microphone
+For this project we are planning to use an ARDUINO SENSE as the embeded system because it already has an inbuilt microphone.
 
 ### Cost
 
