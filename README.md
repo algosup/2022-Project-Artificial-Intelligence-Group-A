@@ -9,5 +9,3 @@ Links:
 
 [Technical Specifications]()
 
-[Trello](https://trello.com/b/8Cp5xbI5/project5a)
-
