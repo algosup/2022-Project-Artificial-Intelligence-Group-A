@@ -16,7 +16,7 @@ Links:
 We decided to create a web interface using Flask for a better visualisation of our results.
 ### Install Flask
 First of all it is necessary to install [Flask](https://flask.palletsprojects.com/en/2.1.x/installation/).
-To do this, you will need to have Python3 installed and the following commands:
+To do this, you will need to have Python3 installed and do the following commands:
 
 ```$ pip install Flask```
 
