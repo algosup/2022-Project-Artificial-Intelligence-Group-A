@@ -1,23 +1,41 @@
-body{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: cornflowerblue;
 }
+
+html {
+    font-size: 62.5%;
+    /* 1rme = 10px */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 #container {
     width: 100%;
-    height: 100vh;
-    background-color: cornflowerblue;
+    height: 5vh;
+    background-color: black;
+
 }
 
 #eng {
     height: 100%;
     background-color: greenyellow;
-    display: inline;
+    /* display: inline; */
     float: left;
 }
 
 #fr {
     height: 100%;
     background-color: red;
-    display: inline;
+    /* display: inline; */
     float: right;
 }
