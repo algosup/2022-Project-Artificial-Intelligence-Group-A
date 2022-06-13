@@ -7,11 +7,11 @@ var intervalId = window.setInterval(function () {
             response = JSON.parse(response);
             response = brendon(response);
             console.log(response);
-
             document.getElementById("eng").style.width = response[0] + "%";
             document.getElementById("fr").style.width = response[1] + "%";
             document.getElementById("eng").innerHTML = eng + "%";
             document.getElementById("fr").innerHTML = fr + "%";
+            response = result(response);
         },
         error: function (error) {
             console.log(error);
@@ -19,17 +19,16 @@ var intervalId = window.setInterval(function () {
     });
 }, 2000);
 
-function result() {
+function result(response) {
     eng = response[0];
     fr = response[1];
-    let spoken;
+    const spoken= document.querySelector("#demo");
 
     if (eng > 50) {
-        spoken = "English is speaking";
+        spoken.innerHTML = "English is speaking";
     } else {
-        spoken = "French is speaking";
+        spoken.innerHTML =  "French is speaking";
     } 
-    document.getElementById("demo").innerHTML = spoken;
 }
 
 

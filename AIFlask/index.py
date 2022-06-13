@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import json 
 
 def dummy():
-    return [90, 10]
+    return [10, 90]
 
 
 prediction = dummy()
