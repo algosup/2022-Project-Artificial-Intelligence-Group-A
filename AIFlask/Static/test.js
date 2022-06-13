@@ -19,6 +19,20 @@ var intervalId = window.setInterval(function () {
     });
 }, 2000);
 
+function result() {
+    eng = response[0];
+    fr = response[1];
+    let spoken;
+
+    if (eng > 50) {
+        spoken = "English is speaking";
+    } else {
+        spoken = "French is speaking";
+    } 
+    document.getElementById("demo").innerHTML = spoken;
+}
+
+
 function brendon(response) {
     eng = response[0];
     fr = response[1];
