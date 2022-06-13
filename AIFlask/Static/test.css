@@ -22,7 +22,7 @@ body {
 #container {
     width: 100%;
     height: 5vh;
-    background-color: black;
+    background-color: white;
 
 }
 
@@ -31,6 +31,7 @@ body {
     background-color: greenyellow;
     /* display: inline; */
     float: left;
+    font-size: 1.5em;
 }
 
 #fr {
@@ -38,4 +39,5 @@ body {
     background-color: red;
     /* display: inline; */
     float: right;
+    font-size: 1.5em;
 }

@@ -10,6 +10,8 @@ var intervalId = window.setInterval(function () {
 
             document.getElementById("eng").style.width = response[0] + "%";
             document.getElementById("fr").style.width = response[1] + "%";
+            document.getElementById("eng").innerHTML = eng + "%";
+            document.getElementById("fr").innerHTML = fr + "%";
         },
         error: function (error) {
             console.log(error);
