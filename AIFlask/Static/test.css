@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: cornflowerblue;
+
 }
 
 html {
@@ -17,12 +17,26 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: cornflowerblue;
 }
 
 #container {
-    width: 100%;
-    height: 5vh;
+    height: 50vh;
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
+    border-radius: 15px;
+}
+
+#spoken_language {
+    width: 90%;
+    height: 5vh;
+    background-color: wheat;
+    border-radius: 15px;
+    margin-top: 62px;
 
 }
 
@@ -32,6 +46,8 @@ body {
     /* display: inline; */
     float: left;
     font-size: 1.5em;
+    border-radius: 15px 0 0 15px;
+    text-align: left;
 }
 
 #fr {
@@ -40,4 +56,6 @@ body {
     /* display: inline; */
     float: right;
     font-size: 1.5em;
+    border-radius: 0 15px 15px 0;
+    text-align: right;
 }
