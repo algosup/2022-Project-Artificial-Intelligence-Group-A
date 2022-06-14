@@ -20,6 +20,16 @@ body {
     background-color: cornflowerblue;
 }
 
+/* @keyframes myframes {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100px;
+    }
+} */
+
 #container {
     height: 50vh;
     width: 90vh;
@@ -38,24 +48,33 @@ body {
     border-radius: 15px;
     margin-top: 62px;
 
+
 }
 
 #eng {
     height: 100%;
-    background-color: greenyellow;
+    background-color: #33cc33;
     /* display: inline; */
     float: left;
     font-size: 1.5em;
     border-radius: 15px 0 0 15px;
     text-align: left;
+    box-shadow: 5px 13px 15px -1px rgba(0, 0, 0, 0.44);
+    animation-name: myframes;
 }
+
 
 #fr {
     height: 100%;
-    background-color: red;
+    background-color: #ff0000;
     /* display: inline; */
     float: right;
     font-size: 1.5em;
     border-radius: 0 15px 15px 0;
     text-align: right;
+    box-shadow: 5px 13px 15px -1px rgba(0, 0, 0, 0.44);
+}
+
+#demo {
+    font-size: large;
 }

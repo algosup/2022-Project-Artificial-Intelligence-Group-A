@@ -1,3 +1,4 @@
+/* ---------------------- Percentage setting of values and refresh ---------------------- */
 var intervalId = window.setInterval(function () {
     $.ajax({
         url: '/update',
@@ -18,7 +19,7 @@ var intervalId = window.setInterval(function () {
         }
     });
 }, 2000);
-
+/* ---------------------- Determine the language spoken --------------------- */
 function result(response) {
     eng = response[0];
     fr = response[1];
@@ -27,11 +28,11 @@ function result(response) {
     if (eng > 50) {
         spoken.innerHTML = "English is speaking";
     } else {
-        spoken.innerHTML =  "French is speaking";
+        spoken.innerHTML = "French is speaking";
     } 
 }
 
-
+/* --------------------- Calculate the percentage error -------------------- */
 function brendon(response) {
     eng = response[0];
     fr = response[1];
