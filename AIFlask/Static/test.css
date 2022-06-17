@@ -48,14 +48,18 @@ body {
     float: left;
     font-size: 1.5em;
     border-radius: 15px 0 0 15px;
-    text-align: left;
+    /* text-align: left; */
     transition: 1s ease 0.3s;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     /* margin-left: 5px; */
     /* transform: translate(10px); */
+    text-align: center;
 
 }
 
+/* #neweng {
+    padding-right: 10px;
+} */
 
 #fr {
     height: 100%;
@@ -63,13 +67,18 @@ body {
     float: right;
     font-size: 1.5em;
     border-radius: 0 15px 15px 0;
-    text-align: right;
+    /* text-align: right; */
     transition: 1s ease 0.3s;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     /* margin-right: 5px; */
     /* transform: translate(10px); */
+    text-align: center;
 
 }
+
+/* #newfr {
+    padding-left:10px;
+} */
 
 #demo {
     font-size: large;

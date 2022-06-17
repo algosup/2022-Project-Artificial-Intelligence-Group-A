@@ -12,6 +12,8 @@ var intervalId = window.setInterval(function () {
             document.getElementById("fr").style.width = response[1] + "%";
             document.getElementById("eng").innerHTML = eng + "%";
             document.getElementById("fr").innerHTML = fr + "%";
+            // document.getElementById("neweng").innerHTML = eng + "%";
+            // document.getElementById("newfr").innerHTML = fr + "%";
             response = result(response);
         },
         error: function (error) {
