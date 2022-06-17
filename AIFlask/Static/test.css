@@ -50,9 +50,6 @@ body {
     border-radius: 15px 0 0 15px;
     display: flex;
     transition: 1s ease 0.3s;
-    /* padding-left: 10px; */
-    /* margin-left: 5px; */
-    /* transform: translate(10px); */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -71,9 +68,6 @@ body {
     border-radius: 0 15px 15px 0;
     display: flex;
     transition: 1s ease 0.3s;
-    /* padding-right: 10px; */
-    /* margin-right: 5px; */
-    /* transform: translate(10px); */
     text-align: center;
     align-items: center;
     justify-content: center;
