@@ -17,7 +17,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: #80cff7;
 }
 
 #container {
@@ -27,23 +27,24 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: #12a4d9;
     border-radius: 15px;
+    border: 1px solid;
 }
 
 #spoken_language {
     width: 90%;
     height: 5vh;
-    background-color: wheat;
+    background-color: #80cff7;
     border-radius: 15px;
     margin-top: 62px;
-
+    border: 0.5px solid;
 
 }
 
 #eng {
     height: 100%;
-    background-color: #33cc33;
+    background-color: #d9138a;
     /* display: inline; */
     float: left;
     font-size: 1.5em;
@@ -51,12 +52,13 @@ body {
     text-align: left;
     /* box-shadow: 5px 13px 15px -1px rgba(0, 0, 0, 0.44); */
     transition: 1s ease 0.3s;
+
 }
 
 
 #fr {
     height: 100%;
-    background-color: #ff0000;
+    background-color: #e2d810;
     /* display: inline; */
     float: right;
     font-size: 1.5em;
