@@ -45,13 +45,14 @@ body {
 #eng {
     height: 100%;
     background-color: #d9138a;
-    /* display: inline; */
     float: left;
     font-size: 1.5em;
     border-radius: 15px 0 0 15px;
     text-align: left;
-    /* box-shadow: 5px 13px 15px -1px rgba(0, 0, 0, 0.44); */
     transition: 1s ease 0.3s;
+    padding-left: 10px;
+    /* margin-left: 5px; */
+    /* transform: translate(10px); */
 
 }
 
@@ -59,13 +60,15 @@ body {
 #fr {
     height: 100%;
     background-color: #e2d810;
-    /* display: inline; */
     float: right;
     font-size: 1.5em;
     border-radius: 0 15px 15px 0;
     text-align: right;
-    /* box-shadow: 5px 13px 15px -1px rgba(0, 0, 0, 0.44); */
     transition: 1s ease 0.3s;
+    padding-right: 10px;
+    /* margin-right: 5px; */
+    /* transform: translate(10px); */
+
 }
 
 #demo {
