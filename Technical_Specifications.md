@@ -47,6 +47,8 @@ Detailed tutorials can be found [here](https://www.instructables.com/Controlling
 # Software
 
 ## Dataset
+We need to create a large dataset with voices recording (English and French) to train our futur model.
+These dataset need to be diversified with different accents like bad English to be accurate in our predictions and have an accurate result.
 
 ## Tensorflow model
 
@@ -57,5 +59,5 @@ Detailed tutorials can be found [here](https://www.instructables.com/Controlling
 ## Connecting to LEDs
 
 ## Web Interface
-Using Flask and Python, we created a web interface to display in percent the predictions of the spoken language(s). It will be use during our oral exam of this project in order to have a better visualisation of the results.
+Using Flask and Python, we will create a web interface to display in percent the predictions of the spoken language(s). It will be use during our oral exam of this project in order to have a better visualisation of the results.
 This web interface needs to be link with the predictions code to get the predicted values.
