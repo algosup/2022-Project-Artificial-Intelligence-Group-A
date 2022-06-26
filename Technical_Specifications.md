@@ -44,6 +44,18 @@ Every LED can however be connected to the same Ground pin.
 
 Detailed tutorials can be found [here](https://www.instructables.com/Controlling-Multiple-LEDs-With-Python-and-Your-Ras/) and [here](https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins).
 
-# Web Interface
+# Software
+
+## Dataset
+
+## Tensorflow model
+
+## Recording audio with Raspb
+
+## Running the model on Raspb
+
+## Connecting to LEDs
+
+## Web Interface
 Using Flask and Python, we created a web interface to display in percent the predictions of the spoken language(s). It will be use during our oral exam of this project in order to have a better visualisation of the results.
 This web interface needs to be link with the predictions code to get the predicted values.
