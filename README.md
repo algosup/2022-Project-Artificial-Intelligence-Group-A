@@ -6,5 +6,6 @@ or in english. For this, the device will have an artificial intelligence that wi
 Links:
 
 [Functional Specifications](Fonctional_Specifications.md)
+
 [Technical Specifications](Technical_Specifications.md)
 
